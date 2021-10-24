@@ -1,0 +1,36 @@
+body {
+    color: #967662;
+    background: #c9a995;
+    font-family: Times;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+}
+
+td { 
+    width: 4.5vw;
+    height: 4.5vw;
+    border: 1px dotted #927868;
+    text-align: center;
+    background: white;
+    color: black;
+    font-family: Poppins, sans-serif;
+}
+td:empty {
+    visibility: hidden;
+}
+td:hover {
+    cursor: pointer;
+    transform: scale(1.4);
+    border: 1px solid #a18675;
+    color: white;
+    background: black;
+}
+th {
+    color: white;
+};
